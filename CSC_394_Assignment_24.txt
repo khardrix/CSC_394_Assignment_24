@@ -20,3 +20,21 @@ element for the photo to the gallery.
 5. Enhance the code for the photo gallery so each photo is wrapped in an <a>
 element that provides for displaying the photo in a Lightbox. All of the photos
 should be treated as a group.
+
+
+**************************************************************************************************************
+**SPECIAL NOTE**: lightbox.css <-- is in a folder titled "css"
+
+
+                                bullet.gif        \
+                                close.png       \
+                                footer.gif         \
+                                loading.gif        \ __ All these images are in a folder titled "images"
+                                logo.gif             /
+                                mainbg.gif        /
+                                next.png          /
+                                prev.png         /
+                                
+
+                                lightbox.min.js <-- is in a folder titled "js"
+****************************************************************************************************************
