@@ -12,7 +12,7 @@
 	        var url = "https://api.flickr.com/services/feeds/photos_public.gne?id=82407828@N07&format=json&jsoncallback=?&tags=vectacorpbuilding";
             
             $.getJSON(url, function(data){
-                var html = "<div>";
+                var html = "";
                 $.each(data.items, function(i, item){
                     html += "<a href = \" " + item.media.m + "\"";
                     html += "data-lightbox = \"" + item.tags + "\" ";
@@ -20,7 +20,6 @@
                     html += "<img src = \"" + item.media.m + "\" alt = \"" + item.title + "\">";
                     html += "</a>";
                 });
-                html += "</div>"
                 
                 $("#new_building").html(html);
             });
