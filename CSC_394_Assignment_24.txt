@@ -1,0 +1,22 @@
+Assn#24 Display a gallery of Flickr photos
+
+In this exercise, you’ll create an application that displays the photos with a specific
+tag for a specific user. You’ll also use the Lightbox plugin to display a larger
+version of a photo when it’s clicked. When you’re done, the page should look like
+this:
+
+
+1. You’ll find the HTML, CSS, and JavaScript files for this application in this
+folder:
+exercises_extra\ch12\flickr_gallery\
+2. Review the HTML file to see that it includes a link element for the Lightbox CSS file
+and a script element for the Lightbox JavaScript file. It also includes a div
+element with the id “new_building” where the photo gallery will be displayed.
+3. Within the ready event handler for the document, declare a variable to store the URL
+for the Flickr feed. The URL should be for the user with the id “82407828@N07”
+and the tag “vectacorpbuilding”, and the return formatshould be set to JSON.
+4. Add code to get the data from the feed. For each item that’s returned, add an img
+element for the photo to the gallery.
+5. Enhance the code for the photo gallery so each photo is wrapped in an <a>
+element that provides for displaying the photo in a Lightbox. All of the photos
+should be treated as a group.
